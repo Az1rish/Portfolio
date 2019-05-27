@@ -1,18 +1,21 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
     font-family: 'IM Fell DW Pica', serif;
     text-align: center;
     font-size: 20px;
-    color: #444;
+    color: #f2f1ef;
     line-height: 1.5;
 }
 
 nav, footer {
     padding: 1% 0;
-    background-color: #aaa;
+    background-color: #444;
+    font-family: 'Nunito', sans-serif;
+    color: #fefefe;
 }
 
 nav {
@@ -21,6 +24,9 @@ nav {
     left: 0;
     right: 0;
     z-index: 10;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 header {
@@ -30,15 +36,11 @@ header {
 section {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #bbb;
-}
-
-section:nth-child(even) {
-    background-color: #ddd;
 }
 
 .name {
     display: inline-block;
+    background-color: #444;  
 }
 
 ul {
@@ -60,7 +62,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #444;
+    color: #f2f1ef;
 }
 
 a:hover {
@@ -73,10 +75,10 @@ a:hover {
     height: 100vh;
     object-fit: cover;
     background-repeat: no-repeat;
+    color: #444
 }
 
 p {
-    background-color: #ccc;
     margin: 10px;
     text-align: left;
 }
@@ -94,7 +96,52 @@ img {
     display: inline;
 }
 
-.contact {
+.contact, .links {
     text-align: left;
-    background-color: #ccc
+    color: #f2f1ef;
+}
+
+#projects {
+    font-family: 'Nunito', sans-serif;
+    padding-top: 0;
+    height: 100vh;
+    background-color: #838c91;
+    color: #f2f1ef;
+}
+
+.projects {
+  
+}
+
+#contact {
+    font-family: 'Nunito', sans-serif;
+    background-color: #6c7378;
+    height: 100vh;
+    padding-top: 30vh;
+}
+
+.navlinks {
+    background-color: #444;
+    padding-left: 5px;
+    flex-grow: 0.8;
+    font-size: 17px;
+}
+
+.link {
+    color: #fefefe;
+}
+
+.link:hover {
+    color: #c5eff7;
+}
+
+#bio {
+    background-color: #444;
+    color: #fefefe;
+    height: 100vh;
+    
+}
+
+.bio {
+    margin-top: 30vh;
 }
