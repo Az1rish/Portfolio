@@ -75,7 +75,7 @@ a:hover {
     height: 100vh;
     object-fit: cover;
     background-repeat: no-repeat;
-    color: #444
+    color: #444;
 }
 
 p {
@@ -107,10 +107,6 @@ img {
     height: 100vh;
     background-color: #838c91;
     color: #f2f1ef;
-}
-
-.projects {
-  
 }
 
 #contact {
@@ -145,3 +141,39 @@ img {
 .bio {
     margin-top: 30vh;
 }
+
+@media screen and (min-width: 600px) {
+    .hero {
+        background-position: center top;
+        background-color: #444444;
+    }
+
+    h1 {
+ 
+        display: inline-block;
+    }
+
+    p {
+        //background-color: #c7c7c9;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .bio {
+        margin-top: 20vh;
+    }
+
+    .projects {
+        width: 40%;
+        height: 75vh;
+        float: left;
+        margin: 10vh;
+        clear: both;
+    }
+
+    .description {
+        margin-left: 0px;
+        overflow: auto;
+        display: block;
+    }
+} 
