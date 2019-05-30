@@ -99,6 +99,7 @@ img {
 .contact, .links {
     text-align: left;
     color: #f2f1ef;
+    padding: 0;
 }
 
 #projects {
@@ -142,6 +143,10 @@ img {
     margin-top: 30vh;
 }
 
+.contact li {
+    display: block;
+}
+
 @media screen and (min-width: 600px) {
     .hero {
         background-position: center top;
@@ -149,8 +154,8 @@ img {
     }
 
     h1 {
- 
-        display: inline-block;
+        //display: inline-block;
+        left: 30%;
     }
 
     p {
@@ -175,5 +180,9 @@ img {
         margin-left: 0px;
         overflow: auto;
         display: block;
+    }
+
+    .description p {
+        margin-left: 0px;
     }
 } 
