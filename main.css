@@ -62,7 +62,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #f2f1ef;
+    color: #382903;
 }
 
 a:hover {
@@ -145,6 +145,7 @@ img {
 
 .contact li {
     display: block;
+    
 }
 
 @media screen and (min-width: 600px) {
