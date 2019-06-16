@@ -145,7 +145,7 @@ img {
 }
 
 p.bio {
-    margin: 20%;
+    margin: 10% 20%;
 }
 
 .description p {
@@ -208,7 +208,7 @@ h2 {
     }
 
     p.bio {
-        margin: 15%;
+        margin: 5% 15%;
     }
 }
 
@@ -223,10 +223,6 @@ h2 {
         flex-direction: row;
         align-items: center;
         padding-top: 5%;
-    }
-
-    p.bio {
-        margin: 10% 15%;
     }
 
     .projectPicture {
