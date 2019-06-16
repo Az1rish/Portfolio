@@ -34,7 +34,6 @@ header {
 }
 
 section {
-    /*min-height: 200px;*/
     padding: 6% 0;
 }
 
@@ -44,7 +43,6 @@ section {
 }
 
 ul {
-    /*display: inline-block;*/
     list-style-type: none;
     margin-right: 10%;
 }
@@ -159,7 +157,7 @@ h2 {
 }
 
 #contact p {
-    margin: 15%;
+    margin: 10% 15% 5% 15%;
 }
 
 .contact li, .links li {
@@ -183,6 +181,19 @@ h2 {
     .navlinks {
         font-size: 18px;
     }
+
+    img {
+        object-fit: inherit;
+    }
+
+    .description {
+        padding: 0;
+    }
+
+    ul {
+        margin: 0 10%;
+        padding: 0;
+    }
 }
 
 @media screen and (min-width: 650px) {
@@ -192,34 +203,50 @@ h2 {
         height: 125vh;
     }
 
+    .projects {
+        margin: 10% auto;
+    }
 
+    p.bio {
+        margin: 15%;
+    }
 }
 
 @media screen and (min-width: 950px) {
     .hero {
         background-image: url(coffeeLaptopBackpack-large.jpg);
-        background-position: 50% 25%;
-        height: 160vh;
+        background-position: 50% 35%;
+        height: 125vh;
     }  
+
+    #projects {
+        flex-direction: row;
+        align-items: center;
+        padding-top: 5%;
+    }
+
+    p.bio {
+        margin: 10% 15%;
+    }
+
+    .projectPicture {
+        width: 50%;
+    }
+
+    .description {
+        width: 50%;
+    }
     
-    .projects {
-        max-width: 40%;
-        height: 50%;
-        float: left;
-        margin: 10vh;
-        clear: both;
-        object-fit: cover;
+    h2 {
+        margin: 5%;
     }
 
-    .links {
-        position: relative;
-        right: 110px;
-        bottom: 20px;
+    #contact p {
+        margin: 5% 15%;
     }
 
-    .contact {
-        position: relative;
-        right: 110px; 
+    h1 {
+        top: 0;
     }
 }
 
