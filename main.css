@@ -3,12 +3,17 @@
     margin: 0;
 }
 
-body {
+html, body {
     font-family: 'IM Fell DW Pica', serif;
     text-align: center;
     font-size: 14px;
     color: #f2f1ef;
     line-height: 1.5;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 nav, footer {
@@ -169,7 +174,7 @@ h2 {
     margin: 20% auto;
 }
 
-@media screen and (min-width: 370px) {
+@media screen and (min-width: 435px) {
     body {
         font-size: 20px;
     }
