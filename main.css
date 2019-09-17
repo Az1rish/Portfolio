@@ -98,22 +98,20 @@ img {
 .contactButton {
     width: 30px;
     height: 20px;
-    display: inline;
 }
 
 .contact, .links {
     text-align: left;
     color: #f2f1ef;
-   /* padding: 0;*/
 }
 
 #projects {
     font-family: 'Nunito', sans-serif;
-    padding-top: 0;
+    padding-top: 1em;
     background-color: #838c91;
     color: #f2f1ef;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 #contact {
@@ -224,11 +222,19 @@ h2 {
     }  
 
     #projects {
-        flex-direction: row;
         align-items: center;
         padding-top: 5%;
     }
 
+    #quiz, #forecast {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #forecast {
+        padding-bottom: 10px;
+        flex-direction: row-reverse;
+    }
     .projectPicture {
         width: 50%;
     }
