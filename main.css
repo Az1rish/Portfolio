@@ -73,7 +73,7 @@ a:hover {
 }
 
 .hero {
-    background-image: url(coffeeLaptopBackpack.jpg);
+    background-image: url(assets/coffeeLaptopBackpack.jpg);
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -202,7 +202,7 @@ h2 {
 
 @media screen and (min-width: 650px) {
     .hero {
-        background-image: url(coffeeLaptopBackpack-midsize.jpg);
+        background-image: url(assets/coffeeLaptopBackpack-midsize.jpg);
         background-position: 50% 25%;
         height: 125vh;
     }
@@ -218,7 +218,7 @@ h2 {
 
 @media screen and (min-width: 950px) {
     .hero {
-        background-image: url(coffeeLaptopBackpack-large.jpg);
+        background-image: url(assets/coffeeLaptopBackpack-large.jpg);
         background-position: 50% 35%;
         height: 125vh;
     }  
