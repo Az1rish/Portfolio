@@ -118,6 +118,10 @@ img {
     background-color: #6c7378;
 }
 
+#contact a {
+    color: #e0ffff;
+}
+
 .navlinks {
     background-color: #444;
     padding-left: 5px;
